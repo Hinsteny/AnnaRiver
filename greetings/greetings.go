@@ -10,7 +10,7 @@ import (
 // Hello returns a greeting for the named person.
 func Hello(name string) (string, error) {
 	if name == "" {
-		return "", errors.New("empty name")
+		return name, errors.New("empty name")
 	}
 
 	// If a name was received, return a value that embeds the name
