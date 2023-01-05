@@ -1,0 +1,12 @@
+[
+    {
+        "ruleId": "union_entry_code",
+        "matchPattern": "https://qr.95516.com",
+        "desc": "银联收款码"
+    },
+    {
+        "ruleId": "guangxi_nongxinyin_entry_code",
+        "matchPattern": "https://nxt.nongxinyin.com",
+        "desc": "广西农村信用银行收款码"
+    }
+]
